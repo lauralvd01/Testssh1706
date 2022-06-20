@@ -1,8 +1,8 @@
 int nfibo(int n);
 
 int nfibo(int n){
-    f0 = 0;
-    f1 = 1;
+    int f0 = 0;
+    int f1 = 1;
     if(n==0){
         return f0;
     }
@@ -26,6 +26,5 @@ int main() {
     scanf("%s",stringn);
     int n = atoi(stringn);
 
-    n = ?;
     printf("le %d-ième nombre de Fibonacci est le %d.\n)",n,nfibo(n));
 }
