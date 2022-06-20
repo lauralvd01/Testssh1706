@@ -18,7 +18,7 @@ int nfibo(int n){
 }
 
 #include<stdio.h>
-#include<stdib.h>
+#include<stdlib.h>
 
 int main() {
     char stringn[20];
